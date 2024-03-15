@@ -89,6 +89,15 @@
 
 }
 
+@keyframes animateText {
+    0%,95%,100% {
+        background-position: -410px;
+    }
+    65%,85%{
+        background-position: 0 0;
+    }
+}
+
 
 .Home-content p {
     font-size: 16px;
