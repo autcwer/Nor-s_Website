@@ -31,7 +31,7 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 300px;
+    width: 200px;
     
 }
 nav ul li{
@@ -63,12 +63,43 @@ nav ul li a:hover::after{
     font-size: 30px;
 }
 .header-text h1{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 20px;
+}
+.header-text h3{
+    color: transparent;
+    -webkit-text-stroke: .7px rgb(179, 179, 179);
 }
 .header-text h1 span{
     color: #ff004f;
 }
+.header-text p{
+    font-size: 18px;
+}
+.header-text p span{
+    color: #ff004f;
+}
+.header-text p .span1{
+    color: #555555;
+}
+.myButton {
+    background-color: #ff004f;  
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 11px;
+    margin: 25px 160px;
+    cursor: pointer;
+    border-color: #ff004f;
+    box-shadow:0 0 10px  #ff004f;
+    display: block;
+    width: fit-content;
+    border: 0.1px solid #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition:  0.5s;
+  }
+
 /* -----------about----------- */
 #about{
     padding: 80px 0;
@@ -178,6 +209,7 @@ nav ul li a:hover::after{
     background: #ff004f;
     transform: translateY(-10px);
 }
+
 /*---------portfolio-------------*/
 
 #portfolio{
@@ -246,8 +278,8 @@ nav ul li a:hover::after{
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #ff000f;
-    padding: 14px 50px;
-    border-radius: 6px;
+    padding: 10px 35px;
+    border-radius: 20px;
     text-decoration: none;
     color: #fff;
     transition:  0.5s;
@@ -320,8 +352,8 @@ form input, form textarea{
     border-radius: 6px;
 }
 form .btn2{
-    padding: 14px;
-    font-size: 18px;
+    padding: 10px 30px;
+    font-size: 15px;
     margin-top: 20px;
     cursor: pointer;
 }
