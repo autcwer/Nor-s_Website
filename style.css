@@ -58,32 +58,16 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-
 .header-text{
     margin-top: 25%;
-    margin-bottom: 0;
-    color: rgb(187, 187, 187);
-    
+    font-size: 30px;
 }
-
-.header-text h2{
+.header-text h1{
     font-size: 60px;
     margin-top: 20px;
-    line-height: 1.2;
-    color: transparent;
-    -webkit-text-stroke: .9px rgb(170, 170, 170);
 }
- 
-.header-text p{
-    color: #fff;
-}
-.header-text p span{
+.header-text h1 span{
     color: #ff004f;
-}
-.header-text h2 span{
-    line-height: 1.2;
-    color: transparent;
-    -webkit-text-stroke: .9px #ffffff;
 }
 /* -----------about----------- */
 #about{
