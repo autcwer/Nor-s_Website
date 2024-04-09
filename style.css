@@ -58,9 +58,7 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-.header-text h2 span{
-    color: #ffffff;
-}
+
 .header-text{
     margin-top: 25%;
     margin-bottom: 0;
@@ -74,11 +72,6 @@ nav ul li a:hover::after{
     line-height: 1.2;
     color: transparent;
     -webkit-text-stroke: .9px rgb(170, 170, 170);
-    background-image: linear-gradient(rgb(255, 0, 64),rgb(0, 0, 0));
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-position: -410px 0;
-    animation: animateText 9s linear infinite;   
 }
  
 .header-text p{
@@ -90,12 +83,7 @@ nav ul li a:hover::after{
 .header-text h2 span{
     line-height: 1.2;
     color: transparent;
-    -webkit-text-stroke: .9px rgb(255, 136, 0);
-    background-image: linear-gradient(rgb(158, 76, 0),rgb(0, 0, 0));
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-position: -410px 0;
-    animation: animateText 9s linear infinite;  
+    -webkit-text-stroke: .9px #fff;
 }
 /* -----------about----------- */
 #about{
@@ -111,7 +99,7 @@ nav ul li a:hover::after{
     padding: 5px;
 }
 .about-col-1 img{
-    width: 90%;
+    width: 83%;
     border-radius: 15px;
 
 }
@@ -121,7 +109,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #dd001d;
+    color: #ff004f;
     text-decoration: none;
 }
 
@@ -167,7 +155,7 @@ nav ul li a:hover::after{
 
 /*---------------services-----------*/
 #services{
-    padding: 30px 0;
+    padding: 10px 0;
 }
 .services-list span{
     color: #1000f0;
@@ -184,7 +172,7 @@ nav ul li a:hover::after{
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
-    transition: background 1.5s, transform 0.5s;
+    transition: 1.5s, transform 0.5s;
 }
 .services-list div i{
     font-size: 50px;
@@ -309,7 +297,7 @@ nav ul li a:hover::after{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #757575;
     border-radius: 50%;
     font-size: 20px;
     color: #1000f0;
