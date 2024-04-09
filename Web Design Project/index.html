@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3205655c4e.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+<div id="header">
+    <div class="container">
+        <nav> 
+            <img src="./images/logo .png"class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h2> <span>Hi</span>, I'm Dorji Thinley <br>From Bhutan</h2>
+            <br>
+         <p>I'm an experienced <span>Web developer and UX designer</span>, passionate about creating seamless digital experiences <br>
+            that are both visually appealing and user-friendly. With a blend of technical expertise and creative flair,<br>
+            I aim to craft websites and applications that delight users and drive results.</p>
+        </div>
+    </div>
+</div>
+<!-- -------------about----------- -->
+<div id="About">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+             <img src="images/user.jpg ">
+             </div>
+             <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <br>
+                 <p>I'm a dedicated Web with a strong passion for creating engaging digital experiences.
+                   With a background in Web Development and Ux Design, I bring a blend of creativity and technical expertise to every project.
+                   My goal is to not only meet but exceed the expectations of clients by delivering designs that are both aesthetically pleasing and user-friendly.
+                   When I'm not designing, you can find me exploring new trends in the industry or honing my skills through continuous learning. 
+                   <br>
+                   <br>
+                   <br>
+                    Let's connect and collaborate on your next project!</p>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contants active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing websites</li>
+                            <li><span>Web Development</span><br>Developing Website with Bootstrap</li>
+                            <li><span>DSP</span><br>Responsive UX Design in Figma</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contants" id="experience" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br>DSP in Web Development & UX Design</li>
+                            <li><span>2024</span><br>Figma Design Course</li>
+                            <li><span>2024</span><br>HTML and CSS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contants" id="education" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Joined 60th Batch Desuuup Training</li>
+                            <li><span>2023</span><br>Certificate Programme on Taxpayer Services</li>
+                            <li><span>2024</span><br>Skilling Programs in WDUXD</li>
+                        </ul>
+                    </div>
+                
+                </div>
+              
+         </div>
+    </div>
+</div>
+<!-- ---------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>My web design service offers tailored solutions for businesses and individuals, focusing on creating visually appealing and user-friendly websites. From concept to execution, I specialize in graphic design, user experience, responsive layout development, and front-end coding to ensure a standout online presence</p>
+                     <a href=""><span>Learn more</span></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UX Design</h2>
+                    <p>My UX design service focuses on creating intuitive and user-friendly digital experiences through research-driven design and collaboration, ultimately enhancing customer satisfaction and engagement.</p>
+                         <a href="#"><span>Learn more</span></a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>Figma Design</h2>
+                    <p>My combined service offers expertise in Figma, is a collaborative design tool used for creating user interfaces, websites, and digital products. It allows multiple users to work on designs simultaneously in real-time, making it easy for teams to collaborate remotely.</p>
+                         <a href="#"><span>Learn more</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------portfolio--------- -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Html & Css</h3>
+                    <p>websites involves using HTML for content and structure, CSS for styling. 
+                        Download </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                <img src="images/work2.jpg"> 
+                <div class="layer">
+                    <h3>Websites </h3>
+                    <p>A website is a collection of web pages accessible online, organized using HTML, containing text, images, and interactive elements.
+                        Download </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                <img src="images/work3.jpg"> 
+                <div class="layer">
+                    <h3>Figma</h3>
+                    <p>Figma is a cloud-based design tool for creating user interfaces and prototypes collaboratively.
+                        Download </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                   </div>
+                </div> 
+            </div>
+            <a href="" class="btn">See more</a>
+    </div>    
+</div>
+<!---------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>d.teethinley11@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+975 77767808</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/aut_cwer/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>  
+                 <a href="images/my-cv.pdf"download class="btn btn2"><i class="fa-solid fa-download"></i>   Download CV</a>
+            </div>
+            <div class="contact-right">
+             <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" ></textarea> 
+                <button type="submit"class="btn btn2 ">Submit</button>     
+             </form>
+             <span id="msg"></span>
+            </div>
+        </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Nor's Web Design Project 8th April, 2024</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontants = document.getElementsByClassName("tab-contants");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontant of tabcontants){
+            tabcontant.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+     var sidemenu = document.getElementById("sidemenu");
+     function openmenu(){
+        sidemenu.style.right = "0"
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px"
+     }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz34SGS94yS5QdhxsBlru7RbrJbp97FCgJmXcohtDCBr8dJV9_LU0SAmZlu474O9p0/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>  {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    }) 
+  </script>
+    
+</body>
+</html>
