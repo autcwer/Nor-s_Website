@@ -79,11 +79,8 @@ nav ul li a:hover::after{
 .header-text p span{
     color: #ff004f;
 }
-.header-text p .span1{
-    color: #555555;
-}
 .myButton {
-    background-color: #ff004f;  
+    background-color: #000000;  
     padding: 10px 35px;
     text-align: center;
     font-size: 11px;
@@ -431,6 +428,30 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
+@media (min-width: 284px) and (max-width: 905px) {
+    .header-text{
+        max-width: 100%;
+        margin-top:100px;
+    }
+    .myButton{
+        max-width: 100%;
+        margin: 10px;
+    }
+
+}
+@media (min-width: 0px) and (max-width: 284px) {
+    .header-text{
+        max-width: 100%;
+        margin-top:-40px;
+    }
+    .myButton{
+        max-width: 100%;
+        margin: 10px;
+    }
+
+}
+
+
 #msg{
     color: #61b752;
     margin-top: -40px;
