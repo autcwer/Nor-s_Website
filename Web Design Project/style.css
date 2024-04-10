@@ -331,10 +331,9 @@ nav ul li a:hover::after{
 }
 .btn.btn2{
     background: #000000;
-    color: #ffffff;
-    border-color: #ffffff;
-    box-shadow:0 0 10px  #ff004f;
-
+    border-color: #ac0000;
+    
+   
 }
 .contact-right form{
     width: 100%;
