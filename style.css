@@ -313,10 +313,10 @@ nav ul li a:hover::after{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #757575;
+    border: 2px solid #fff;
     border-radius: 50%;
     font-size: 20px;
-    color: #1000f0;
+    color: #ff004f;
     text-decoration: none;
     margin-left: 12px;
     transition: .5s;
@@ -324,10 +324,10 @@ nav ul li a:hover::after{
     
 }
 .social-icons a:hover{
-    background: #00abf0;
-    color: #ffffff;
-    border-color: #00abf0;
-    box-shadow:0 0 10px #00abf0;
+    background: #fff;
+    color: black;
+    border-color: #fff;
+    box-shadow:0 0 10px #fff;
 
 }
 .btn.btn2{
