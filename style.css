@@ -274,7 +274,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff000f;
+    border: 1px solid #1b1b1b;
     padding: 10px 35px;
     border-radius: 20px;
     text-decoration: none;
@@ -283,7 +283,9 @@ nav ul li a:hover::after{
 
 }
 .btn:hover{
-    background:#ff004f ;
+    background:#000000 ;
+    border-color: #ffffff;
+    box-shadow:0 0 10px  #ff004f;
 }
 /*----------------contact----------*/
 .contact-left{
@@ -328,9 +330,9 @@ nav ul li a:hover::after{
 
 }
 .btn.btn2{
-    background: #ff004f;
+    background: #000000;
     color: #ffffff;
-    border-color: #ff004f;
+    border-color: #ffffff;
     box-shadow:0 0 10px  #ff004f;
 
 }
