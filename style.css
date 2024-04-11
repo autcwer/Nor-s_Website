@@ -60,10 +60,10 @@ nav ul li a:hover::after{
 }
 .header-text{
     margin-top: 10%;
-    font-size: 30px;
+    font-size: 50px;
 }
 .header-text h1{
-    font-size: 80px;
+    font-size: 50px;
     margin-top: 20px;
 }
 .header-text h3{
@@ -456,13 +456,36 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
-@media (min-width: 284px) and (max-width: 905px) {
+@media (min-width: 900px) and (max-width: 1071px) {
     .header-text{
-        max-width: 100%;
-        margin-top:100px;
+        max-width: auto;
+        margin-top:-10px;
     }
     .myButton{
-        max-width: 100%;
+        max-width: auto;
+        margin: 10px;
+    }
+    
+
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .header-text{
+        max-width: auto;
+        margin-top:-80px;
+    }
+    .myButton{
+        max-width: auto;
+        margin: 10px;
+    }
+
+}
+@media (min-width: 284px) and (max-width: 600px) {
+    .header-text{
+        max-width: auto;
+        margin-top:-10px;
+    }
+    .myButton{
+        max-width: auto;
         margin: 10px;
     }
 
